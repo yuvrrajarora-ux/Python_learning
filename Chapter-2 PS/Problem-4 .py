@@ -1,11 +1,16 @@
+# Use a comparison operator to check whether 'a' is greater than 'b'
+
 a = 34
 b = 80
 
-c = a < b
+# Check whether a is greater than b
+result = a > b
 
-print (c)
+print("Is a greater than b?", result)
 
-a = int (input("Enter the number 1 :"))
-b = int (input("Enter the number 2 "))
 
-print ("a is greater than b", a>b)
+# Taking values from the user
+a = int(input("Enter number 1: "))
+b = int(input("Enter number 2: "))
+
+print("Is a greater than b?", a > b)
